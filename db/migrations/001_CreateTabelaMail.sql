@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS mail (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    assunto varchar(200) NOT NULL,
+    destinatario VARCHAR(200) NOT NULL,
+    copia VARCHAR(200) NOT NULL,
+    copia_oculta VARCHAR(200) NOT NULL,
+    corpo VARCHAR(8000) NOT NULL,
+    criado_em TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    enviado_em TIMESTAMP NULL,
+    status int
+);

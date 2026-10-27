@@ -1,0 +1,8 @@
+# Credenciais locais
+.env
+
+# Arquivos do sistema
+.DS_Store
+
+# Configurações pessoais do VS Code
+.vscode/
