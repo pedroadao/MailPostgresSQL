@@ -1,4 +1,4 @@
-# Estudos PostgreSQL
+# Projeto de banco com PostgreSQL
 
 Projeto de estudos para aprender SQL e PostgreSQL utilizando Docker, VS Code e Git/GitHub para versionamento da estrutura do banco de dados.
 
